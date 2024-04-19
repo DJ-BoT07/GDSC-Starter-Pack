@@ -1,10 +1,13 @@
 import "./App.css";
+import FooterTail from "./Helper/FooterTail";
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen text-4xl font-bold">
-      Welcome Web Developers!
-    </div>
+    <>
+      <div className="flex justify-center items-center h-screen text-4xl font-bold">
+        Welcome Web Developers!
+      </div>
+    </>
   );
 }
 

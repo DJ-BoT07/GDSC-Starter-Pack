@@ -1,0 +1,11 @@
+<div className="flex justify-center w-full">
+        <div className="flex flex-col items-center w-full transform translate-y-[15rem]">
+          <div className="text-3xl text-white font-semibold">Explore More</div>
+          <img
+            src={vector}
+            alt=""
+            className="w-10 h-12 cursor-pointer mt-2"
+            onClick={scrollToCard}
+          />
+    </div>
+</div>
